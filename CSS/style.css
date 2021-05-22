@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+}
+
+img {
+  max-height: 200px;
+  max-width: 200px;
+  display: block;
+  margin: 15% auto 0;
+  position: relative;
+}
+
+h1 {
+  width: 100%;
+  margin: 5% auto 0;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+p {
+  width: 100%;
+  margin: 2, 5% auto 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.typeQuestion {
+  margin: 2, 5% auto 2, 5%;
+}
+
+.answer {
+  width: 100%;
+  margin: 2, 5% auto 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.typeField {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-height: 150px;
+    max-width: 150px;
+    display: block;
+    margin: 40% auto 0;
+    position: relative;
+  }
+
+  h1 {
+    width: 100%;
+    margin: 10% auto 0;
+    font-weight: bolder;
+    font-size: 36px;
+  }
+
+  p {
+    width: 100%;
+    margin: 5% auto 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

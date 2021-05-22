@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title> Pokémon </title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>
+              
+            Quem é esse pokémon?
+        
+        </h1>
+        
+        <img id="pokedex" src="CSS//Arcanine.png">
+        
+        <div class="typeQuestion">
+
+            <form>
+                <p> Qual o nome do pokémon? </p> 
+                <input type="text" id="typeField" class="typeField" onkeypress="return enter(event);">
+                <input type="button" id="button" class="typeField" onclick="confirmar()" value="Enviar">
+                <input type="button" id="skip" class="typeField" onclick="pulo()" value="Skip" title="Você pode skipar um pokémon se possuir 40 pontos!">
+            </form>
+              
+        </div>
+
+        <div id="resultado" class="answer">
+        </div>
+
+    </div>
+</body>
+<script src="JS/enter.js"></script>
+<script src="JS/main.js"></script>
+</html>
