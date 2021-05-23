@@ -25,5 +25,4 @@ $ cd Pokemon
 
 # Run Game
 Open the index.html file
-
 ```
