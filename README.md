@@ -13,3 +13,17 @@ Ganha-se o jogo acertando **todos** os pokémons.
 # Overview
 
 ![](./gifs/default.gif)
+
+# How to run
+
+```
+# Clone this repository
+$ git clone https://github.com/velleeda/Pokemon
+
+# Go to the directory
+$ cd Pokemon
+
+# Run Game
+Open the index.html file
+
+```
