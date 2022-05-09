@@ -1,14 +1,14 @@
 # Pokémon
 
-Um pequeno jogo de pergunta e resposta;
+A small Q&A game;
 
-O jogo consiste em digitar o nome do pokémon mostrado na tela no campo de texto, a cada acerto **10 (dez)** pontos são ganhos e a cada erro **uma** tentativa é perdida;
+The game consists of typing the name of the pokémon shown on the screen in the text field, with each hit **10 (ten)** points are gained and with each error, **one** attempt is lost;
 
-Com **40 (quarenta)** pontos é possível **skipar (pular)** um pokémon;
+With **40 (forty)** points it is possible to **skip** a pokémon;
 
-O jogador possui **4 (quatro)** tentativas no total;
+The player has **4 (four)** attempts in total;
 
-Ganha-se o jogo acertando **todos** os pokémons.
+The game is won by hitting **all** the pokemons.
 
 # Overview
 
